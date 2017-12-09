@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Professional and Technical Background</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="css/style2.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/dragable.js"></script>
+</head>
+<body class="body">
+	<header class="mainHeader">
+		<img src="images/logo.jpg">
+		<nav>
+			<ul>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="divClass_country">
+		Countries &amp; Cities
+		<ul id="source">
+			<li data-value="country">USA</li>
+			<li data-value="country">India</li>
+			<li data-value="country">UK</li>
+			<li data-value="city">New York</li>
+			<li data-value="city">Chennai</li>
+			<li data-value="city">London</li>
+		</ul>
+	</div>
+
+	<div class="divClass" id="divCountries">
+		Counties
+		<ul id="countries">
+		</ul>
+	</div>
+
+	<div class="divClass" id="divCities">
+		Cities
+		<ul id="cities">
+		</ul>
+	</div>
+	<form action="resume2.html" class="form_resume"
+		class="divClass_country">
+		<input type="hidden" id="validation" name="validation" value="">
+		<div class="g-recaptcha"
+			data-sitekey="6LegYTMUAAAAADvjH8Cw2bMNCI0Er8W9pdViPtKm"></div>
+		<input type="submit" id="gragbutton" value="Download"
+			class="form_button">
+	</form>
+
+	<footer class="mainFooter">
+		<p>Copyright &copy; www.marist.edu 2017</p>
+	</footer>
+</body>
